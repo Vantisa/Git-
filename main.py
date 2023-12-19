@@ -33,7 +33,6 @@ class CircleWindow(QtWidgets.QMainWindow):
         self.circles = []
 
     def add_circle(self):
-        # Add a random circle to the list
         diameter = randint(10, 100)
         self.circles.append((randint(0, 400), randint(0, 300), diameter))
 
